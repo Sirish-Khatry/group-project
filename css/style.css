@@ -53,7 +53,7 @@
     height: 500px;
     flex-direction: row;
     border: 1px solid rgb(245, 239, 239);
-    background-color: #ddd;
+    padding-bottom: 300px;
   }
 
   #container{
