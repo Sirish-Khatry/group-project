@@ -19,12 +19,8 @@
     color: black;
   }
 
-  /* body {
-    margin-bottom: 100px;
-  } */
-
   .desc {
-    position: absolute; 
+    
     text-align: center;
     font-size: 20px;
     background-color: #ddd;
@@ -37,26 +33,22 @@
   }
 
   h1{
-    position: absolute; 
     text-align: center;
-    top: 80px;
-    left:460px;
-    width: 600px;
+    margin: auto;
+		width: 600px;
   }
 
   .blank{
-    position: absolute; 
+    
     top: 1600px;
     left:7%;
   }
 
 
   #flex{
+			margin: auto;
     display:flex;
     flex-wrap: wrap;
-    position: absolute; 
-    top: 750px;
-    left:5%;
     width: 90%;
     height: 500px;
     flex-direction: row;
@@ -65,31 +57,22 @@
   }
 
   #container{
-    position: absolute; 
+    
     top: 650px;
     left:7%;
 
   }
 
+	.images{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly
+	}
+
   .box{
-    position: absolute; 
-    top: 300px;
-    left:7%;
-    width: 400px;
-    
-  }
-  .box2{
-    position: absolute; 
-    top: 300px;
-    left:38%;
-    width: 400px;
-    
-  }
-  .box3{
-    position: absolute; 
-    top: 300px;
-    left:70%;
-    width: 400px;
+			display: inline;
+			width: 400px;
+			
   }
 
   .flexcontainer {
@@ -105,8 +88,6 @@
   }
 
 footer {
-    position: static;
-    bottom: 0;
     width: 100%;
     text-align: center;
     border-top: 1px solid #ddd;
